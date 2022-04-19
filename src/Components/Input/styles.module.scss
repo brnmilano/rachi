@@ -1,0 +1,23 @@
+.input {
+  border: none;
+  background: none;
+  border-width: 0;
+  width: 100%;
+}
+
+.input::placeholder {
+  color: #ffffff;
+  font-weight: 400;
+}
+
+.input:focus-visible {
+  outline: 0px;
+}
+
+.input:focus:active {
+  background: none;
+}
+
+.input:active {
+  background: none;
+}
