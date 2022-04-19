@@ -1,0 +1,12 @@
+.container {
+  padding: 20px 150px;
+  display: flex;
+  justify-content: space-between;
+
+  .headerTexts {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 600px;
+  }
+}
