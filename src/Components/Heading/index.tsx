@@ -1,4 +1,5 @@
 import styles from "./styles.module.scss";
+import { Box } from "@mui/system";
 
 interface Props {
   children?: string;
@@ -20,7 +21,7 @@ export default function Heading({
   textDecoration = "none",
 }: Props) {
   return (
-    <div
+    <Box
       className={styles.text}
       style={{
         color,
@@ -32,6 +33,6 @@ export default function Heading({
       }}
     >
       {children}
-    </div>
+    </Box>
   );
 }

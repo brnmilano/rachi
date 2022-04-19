@@ -1,4 +1,5 @@
 import styles from "./styles.module.scss";
+import { Box } from "@mui/system";
 
 interface Props {
   type?: string;
